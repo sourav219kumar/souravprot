@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Kumar - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <i class="fas fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sourav Kumar</h1>
+            <h3>And I'm an <span class="multiple-text">Aspiring AI Engineer</span></h3>
+            <p>I am an aspiring AI Engineer with a focus on Artificial Intelligence and Machine Learning. I am passionate about building intelligent solutions using AI to solve real-world challenges.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/sourav-kumar-079482339/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/souravkumar"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/sourav219kumar"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="Sourav_Kumar_Resume_Fixed.pdf" class="btn" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.png" alt="Sourav Kumar">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="About Sourav Kumar">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Aspiring AI Engineer</h3>
+            <p>I specialize in Artificial Intelligence, Machine Learning, and Software Development. I believe in building intelligent solutions to tackle real-world challenges, backed by a strong understanding of Data Analysis and Prompt Engineering.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading"> MY <span> Education</span></h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor of Technology (B.Tech)</h3>
+                <p>Computer Science & Engineering (AI & ML)<br>GEC Aurangabad<br>CGPA: 7.78</p>
+            </div>
+            <div class="education-box">
+                <h3>Senior Secondary (12th)</h3>
+                <p>State Board<br>Percentage: 60%</p>
+            </div>
+            <div class="education-box">
+                <h3>Secondary (10th)</h3>
+                <p>CBSE Board<br>Percentage: 67%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress python">90%</div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Machine Learning Basics</h3>
+                <div class="progress-bar">
+                    <div class="progress ml">85%</div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>C & C++</h3>
+                <div class="progress-bar">
+                    <div class="progress c-cpp">80%</div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Data Analysis</h3>
+                <div class="progress-bar">
+                    <div class="progress data-analysis">80%</div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Prompt Engineering</h3>
+                <div class="progress-bar">
+                    <div class="progress prompt">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="images/project1.jpg" alt="Snack Game">
+                <div class="projects-layer">
+                    <h4>Snack Game</h4>
+                    <p>Built a classic snake game with increasing difficulty levels using Python.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="images/project2.jpg" alt="Tic-Tac-Toe Game">
+                <div class="projects-layer">
+                    <h4>Tic-Tac-Toe</h4>
+                    <p>Designed a multiplayer tic-tac-toe game with an interactive UI in Python.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="images/project3.jpg" alt="Quiz Website">
+                <div class="projects-layer">
+                    <h4>Quiz Website</h4>
+                    <p>Developed a dynamic quiz website with backend user management and scoring system.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="images/project4.jpg" alt="Signup Page">
+                <div class="projects-layer">
+                    <h4>Login Page (C)</h4>
+                    <p>Created a secure login page using C programming with basic file management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://formsubmit.co/sawsourav219@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 by Sourav Kumar | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
